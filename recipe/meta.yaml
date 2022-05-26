@@ -37,6 +37,12 @@ test:
   imports:
     - pyEPR
 
+  commands:
+    - pip check
+
+  requires:
+    - pip
+
 about:
   home: https://github.com/zlatko-minev/pyEPR
   license: BSD-3-Clause

@@ -42,6 +42,9 @@ test:
 
   requires:
     - pip
+    # Workaround for older version of sphinx_rtd_theme's conda-forge package
+    # not specifying its dependencies properly and causing pip check to fail
+    - sphinx_rtd_theme >=1.0.0
 
 about:
   home: https://github.com/zlatko-minev/pyEPR

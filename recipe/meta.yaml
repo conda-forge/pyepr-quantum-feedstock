@@ -19,14 +19,14 @@ requirements:
     - python >=3.6
     - pip
   run:
-    - attrdict
+    - addict
     - ipython >=7.0.0
     - matplotlib-base >=3.1.0
     - numpy >=1.15.0
     - pandas >=1.0.1
-    - pint
+    - pint >=0.8
     - python >=3.6
-    - qutip
+    - qutip >=3.5.0
     - seaborn >=0.10.0
     - sphinx_rtd_theme >=0.4.0
     - scipy >=1.3.0

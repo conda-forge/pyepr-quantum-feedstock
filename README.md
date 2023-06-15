@@ -1,11 +1,11 @@
-About pyepr-quantum
-===================
+About pyepr-quantum-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyepr-quantum-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/zlatko-minev/pyEPR
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyepr-quantum-feedstock/blob/main/LICENSE.txt)
 
 Summary: Automated Python module for the design and quantization of Josephson quantum circuits
 

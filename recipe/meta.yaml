@@ -1,5 +1,5 @@
 {% set name = "pyepr-quantum" %}
-{% set version = "0.9.3" %}
+{% set version = "0.9.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/zlatko-minev/pyEPR/archive/{{ version }}.tar.gz
-  sha256: 7ccb7efc76b2af2b465f98719de9c80fd0235983f07793e35e05d8628bd4aa6e
+  sha256: 6a1572f7493fecdcdda5f0a0b2c2ed29ab0d5478fc4485a3f1c107bc6de893f6
 
 build:
   noarch: python

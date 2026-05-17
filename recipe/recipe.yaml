@@ -12,18 +12,18 @@ source:
   sha256: 6648bf86760846750b969db86db928748115467fa52b4277eb4e147b36493724
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python >=3.9,<4
+    - python ${{ python_min }}.*
     - setuptools >=61
     - wheel
     - pip
   run:
-    - python >=3.9,<4
+    - python >=${{ python_min }}
     - addict
     - ipython >=7.0.0
     - matplotlib-base >=3.1.0

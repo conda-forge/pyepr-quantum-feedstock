@@ -7,11 +7,9 @@ Home: https://github.com/zlatko-minev/pyEPR
 
 Package license: BSD-3-Clause
 
-Summary: Automated Python module for the design and quantization of Josephson quantum circuits
+Summary: Python Energy-Participation-Ratio (EPR) package for quantum chip design
 
-Development: https://github.com/zlatko-minev/pyEPR
-
-Documentation: https://pyepr-docs.readthedocs.io/
+Documentation: https://pyepr-docs.readthedocs.io/en/latest/
 
 Current build status
 ====================

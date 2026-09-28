@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.0.1"
+  version: "1.0.2"
 
 package:
   name: pyepr-quantum
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyepr-quantum/pyepr_quantum-${{ version }}.tar.gz
-  sha256: b16cf1dff322369677c961fd8a916b718dc0b7cc97246d0b93e6df279951c846
+  sha256: f203e7feab3355aed1a0364298375e657fc849c88489420515707a30ef29b493
 
 build:
   number: 0
